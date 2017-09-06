@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="37018" started-at="2017-09-06T00:50:59Z" finished-at="2017-09-06T00:51:36Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="37018" started-at="2017-09-06T00:50:59Z" finished-at="2017-09-06T00:51:36Z">
+      <class name="TestSuite">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestSuite@6b143ee9]" name="openBrowser" is-config="true" duration-ms="20243" started-at="2017-09-06T01:50:59Z" finished-at="2017-09-06T01:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyUserIsAbleToLoginSuccessfully()[pri:1, instance:TestSuite@6b143ee9]" name="verifyUserIsAbleToLoginSuccessfully" duration-ms="16737" started-at="2017-09-06T01:51:20Z" finished-at="2017-09-06T01:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLoginSuccessfully -->
+        <test-method status="PASS" signature="tearDownBrowser(org.testng.ITestResult)[pri:0, instance:TestSuite@6b143ee9]" name="tearDownBrowser" is-config="true" duration-ms="1" started-at="2017-09-06T01:51:36Z" finished-at="2017-09-06T01:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLoginSuccessfully status=SUCCESS method=TestSuite.verifyUserIsAbleToLoginSuccessfully()[pri:1, instance:TestSuite@6b143ee9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- TestSuite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
