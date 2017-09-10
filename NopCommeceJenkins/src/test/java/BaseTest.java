@@ -1,6 +1,5 @@
 import CheckOut.BasePage;
 import CheckOut.Utils;
-import org.apache.log4j.BasicConfigurator;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,6 +19,6 @@ public class BaseTest extends BasePage {
         if (ITestResult.FAILURE == result.getStatus()) {
             Utils.captureScreenshot(driver,result.getName());
         }
-        //driver.quit();
+        driver.quit();
     }
 }

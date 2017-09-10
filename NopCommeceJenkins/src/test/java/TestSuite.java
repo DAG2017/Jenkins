@@ -24,7 +24,7 @@ public class TestSuite extends BaseTest {
         String expectedMessage = "Your registration completed";
         Assert.assertEquals(actualMessage,expectedMessage,"TC1 - User is not able to login" ); //hard assert
     }
-/*
+
     @Test(priority = 2)
     public void verifyUserIsAbleToEmailAFriendSuccessfully(){
         homePage.navigateToRegister();
@@ -58,8 +58,8 @@ public class TestSuite extends BaseTest {
         shoppingCartPage.verifySelectedProductsAreInShoppingCartAndNavigateToCheckout();
         checkoutPage.fillBillingAddressForm();
         String actual = driver.findElement(By.xpath("//div[@class=\"section order-completed\"]/div/strong")).getText();
-        Assert.assertEquals(actual, "Your order has been successfully processed!", "Order is not placed successfully. Please check.");
-    }*/
+        Assert.assertEquals(actual, "Your order has been successfully processed!", "TC4 - Order is NOT placed successfully");
+    }
 }
 
 

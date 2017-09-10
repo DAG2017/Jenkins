@@ -1,6 +1,5 @@
 package CheckOut;
 
-//import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -15,7 +14,6 @@ public class BrowserSelector extends BasePage {
         } else if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
-            //BasicConfigurator.configure();
             System.out.println("Google Chrome Browser launched");
         }else if(browser.equalsIgnoreCase("ie")){
             System.setProperty("webdriver.ie.driver",".\\src\\main\\resources\\IEDriverServer.exe");
